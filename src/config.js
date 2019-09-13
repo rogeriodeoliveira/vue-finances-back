@@ -8,7 +8,7 @@ const playground = isProduction ? false : '/'
 const corsHostes = env.CLIENT_HOSTS || ['localhost:8080', '127.0.0.1:8000'].join('|')
 const corsProtocols = isProduction ? 'wss|https' : 'ws|http'
 
-const origen = new RegExp(`(${corsProtocols}):\/\/(${corsHostes})(.+)?`)
+const origin = new RegExp(`(${corsProtocols}):\/\/(${corsHosts})(.+)?`)
 
 module.exports = {
     endpoint,

@@ -4,7 +4,7 @@ const { prisma } = require('./generated/prisma-client')
 
 const resolvers = require ('./resolvers')
 
-const {endpoint, origen, playground, secret } = require ('./config')
+const { endpoint, origin, playground, secret } = require('./config')
 
 const server = new GraphQLServer({
   typeDefs: `${__dirname}/schema.graphql`,
@@ -23,7 +23,7 @@ const server = new GraphQLServer({
 server.start({
   playground,
   cors: {
-    origen
+    origin
   }
 }).then(() => console.log('Serve running on http://localhost:4000...'))
 // id cjtj4ajxx00dn0850y54wgghi

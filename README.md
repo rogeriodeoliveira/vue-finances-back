@@ -1,4 +1,4 @@
-# Projeto final desenvolvido no curso Vue JS - Guia Completo (Vue CLI, Vue Router, Vuex e GraphQL) disponível na Udemy.com
+# Projeto final desenvolvido no curso Vue JS - Guia Completo (Vue CLI, Vue Router, Vuex e GraphQL)
 
 Link do curso
 <https://www.udemy.com/course/vue-js-guia-completo>

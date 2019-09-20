@@ -6,9 +6,9 @@ Link do curso
 Repositório Oficial do projeto
 <https://github.com/plinionaves/vue-finances>
 
-Tecnologias e recursos utilizados
+## Tecnologias e recursos utilizados
 
-Client Side
+### Client Side
 
 - Vue (2.6+)
 - Vue Router
@@ -20,7 +20,8 @@ Client Side
 - ChartJS
 - Moment
 - RxJS
-- Server Side
+
+### Server Side
 
 - NodeJS
 - Prisma (Client e Binding)
@@ -30,7 +31,8 @@ Client Side
 - Bcrypt
 - API GraphQL (Queries e Mutations)
 - PM2
-- Outras ferramentas
+
+### Outras ferramentas
 
 - Docker (Compose e Machine)
 - Prisma Server
